@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mohave&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Mohave', sans-serif;
+    background-color: #FDF5E6;
+    color: #5f3d2d;
+}
+
+.nav {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    padding: 15px 50px;
+    justify-content: space-between;
+    user-select: none;
+}
+
+/* Right Nav Bar */
+.nav .right {
+    display: flex;
+}
+
+.right ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+}
+
+
+/* Center Nav Bar */
+.nav .cent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav .cent p {
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+}
+
+
+/* Left Nav Bar */
+.nav .left {
+    display: flex;
+    align-items: center;
+}
+
+.left ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.right li, .left li{
+    cursor: pointer;
+}
+
+/* Conatiner Main page */
+
+.container {
+    height: 87vh;
+    display: flex;
+    padding-top: 15px;
+    padding-left: 50px;
+    /* background-color: red; */
+}
+
+.cont-r {
+    width: 40%;
+}
+
+.cont-r .info {
+    position: relative;
+    top: 20%;
+    flex-wrap: wrap;
+}
+
+.cont-r .info h2 {
+    font-size: 80px;
+    letter-spacing: 5px;
+    user-select: none;
+}
+
+.cont-r .info p {
+    max-width: 350px;
+    margin-top: 20px;
+}
+
+.cont-r .info h6 {
+    display: inline-block;
+    border: .5px solid white;
+    margin: 20px;
+    padding: 8px 20px;
+    letter-spacing: 2.5px;
+    color: white;
+    background-color: rgb(40, 64, 40);
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+
+.cont-l {
+    width: 100%;
+    height: auto;
+    background-image: url('res/md-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-size: 800px 750px;
+
+    /* background-color: yellow; */
+}
