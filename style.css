@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mohave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 * {
     margin: 0;
@@ -11,7 +12,7 @@ html,
 body {
     height: 100%;
     width: 100%;
-    font-family: 'Mohave', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     background-color: #FDF5E6;
     color: #5f3d2d;
 }
@@ -35,6 +36,9 @@ body {
     gap: 40px;
     list-style: none;
     align-items: center;
+}
+.right ul i{
+    display: none;
 }
 
 
@@ -64,7 +68,12 @@ body {
     list-style: none;
 }
 
-.right li, .left li{
+.left ul .ri-menu-5-line {
+    display: none;   
+}
+
+.right li,
+.left li {
     cursor: pointer;
 }
 
@@ -112,14 +121,60 @@ body {
     user-select: none;
 }
 
-
+.cont-r .info h6:hover {
+    color: rgb(40, 64, 40);
+    background-color: #FDF5E6;
+    border-color: #FDF5E6;
+    /* border: none; */
+    transition: .4s;
+}
 
 .cont-l {
-    width: 100%;
-    height: auto;
-    background-image: url('res/md-removebg-preview.png');
-    background-repeat: no-repeat;
-    background-size: 800px 750px;
+    display: flex;
+    align-content: flex-end;
+}
 
-    /* background-color: yellow; */
+
+
+@media (max-width:1080px) {
+    main .container .cont-l {
+        position: relative;
+        right: 100px;
+    }
+}
+
+@media (max-width:900px) {
+    .nav .right li {
+        display: none;
+    }
+
+    .nav .left ul li {
+        display: none;
+    }
+
+    .nav .right ul i{
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+        position: absolute;
+        left: 20px;
+        /* margin-right:1px; */
+    }
+
+    .container{
+        flex-direction: column;
+        flex-wrap: nowrap;        
+    }
+
+    .cont-l img{
+        position: absolute;
+        left: 20px;
+        top: 40px;
+        /* width: inherit; */
+    }
+
+    .cont-r .info h2 {
+        font-size: 40px;
+    }
+
 }
