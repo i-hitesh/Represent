@@ -37,7 +37,8 @@ body {
     list-style: none;
     align-items: center;
 }
-.right ul i{
+
+.right ul i {
     display: none;
 }
 
@@ -69,7 +70,7 @@ body {
 }
 
 .left ul .ri-menu-5-line {
-    display: none;   
+    display: none;
 }
 
 .right li,
@@ -152,7 +153,7 @@ body {
         display: none;
     }
 
-    .nav .right ul i{
+    .nav .right ul i {
         display: block;
         font-size: 25px;
         cursor: pointer;
@@ -161,16 +162,17 @@ body {
         /* margin-right:1px; */
     }
 
-    .container{
+    .container {
         flex-direction: column;
-        flex-wrap: nowrap;        
+        flex-wrap: nowrap;
     }
 
-    .cont-l img{
+    .cont-l img {
         position: absolute;
-        left: 20px;
-        top: 40px;
-        /* width: inherit; */
+        left: -45px;
+        top: 46px;
+        width: 125vw;
+        height: 40vh;
     }
 
     .cont-r .info h2 {
