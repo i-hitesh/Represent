@@ -1,8 +1,8 @@
 # Represent Landing Page
 
-![GitHub repo size](https://img.shields.io/github/repo-size/i-hitesh/hitesh.js)
-![GitHub stars](https://img.shields.io/github/stars/i-hitesh/hitesh.js?style=social)
-![GitHub forks](https://img.shields.io/github/forks/i-hitesh/hitesh.js?style=social)
+![GitHub repo size](https://img.shields.io/github/repo-size/i-hitesh/Represent)
+![GitHub stars](https://img.shields.io/github/stars/i-hitesh/Represent?style=social)
+![GitHub forks](https://img.shields.io/github/forks/i-hitesh/Represent?style=social)
 
 Animated this project with GSAP JavaScript Library , built using HTML, CSS, and JavaScript.
 
