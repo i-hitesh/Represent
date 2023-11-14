@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="style.css">
     <title>SuCal</title>
 </head>
@@ -41,7 +44,7 @@
                     Profile
                     <i class="ri-user-line"></i>
                 </li>
-                
+
             </ul>
         </div>
     </div>
@@ -50,9 +53,15 @@
         <div class="container">
             <div class="cont-r">
                 <div class="info">
-                    <h2>Winter Collection</h2>
-                    <p>Represents New Collection with collaboration with owners club is out not.</p>
-                    <h6>View Collection</h6>
+                    <div class="bounding">
+                        <h2 class="boundingElement">Winter Collection</h2>
+                    </div>
+                    <div class="bounding">
+                        <p class="boundingElement">Represents New Collection with collaboration with owners club is out not.</p>
+                    </div>
+                    <div class="bounding">
+                        <h6 class="buttonbound">View Collection</h6>
+                    </div>
                 </div>
             </div>
             <div class="cont-l">
@@ -60,6 +69,7 @@
             </div>
         </div>
     </main>
+    <script src="script.js"></script>
 </body>
 
 </html>

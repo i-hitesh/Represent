@@ -126,13 +126,25 @@ body {
     color: rgb(40, 64, 40);
     background-color: #FDF5E6;
     border-color: #FDF5E6;
-    /* border: none; */
     transition: .4s;
 }
 
 .cont-l {
     display: flex;
     align-content: flex-end;
+}
+
+.bounding{
+    width: fit-content;
+    overflow: hidden;
+}
+
+.bounding .boundingElement{
+    transform: translateY(100%);
+}
+
+.bounding .buttonbound{
+    transform: translateY(190%);
 }
 
 
